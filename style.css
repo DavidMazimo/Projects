@@ -30,14 +30,17 @@ body {
 .nav-link:hover {
   color: rgb(109, 109, 109);
 }
-.wrapper,
+.wrapper {
+  color: rgba(91, 136, 32, 0.753);
+  height: 90vh;
+}
+
 .big-projects,
 .small-projects,
 .css-design,
 .javascript {
-  margin-top: 20vh;
   color: rgba(91, 136, 32, 0.753);
-  height: 90vh;
+  height: 100vh;
 }
 .projects-grid {
   display: grid;
