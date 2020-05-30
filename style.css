@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(91, 136, 32, 0.753);
+  height: 10vh;
+  align-items: center;
+  color: rgba(214, 214, 214, 0.774);
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 0px 1rem;
+  text-decoration: none;
+  color: rgba(214, 214, 214, 0.774);
+}
+
+.nav-link:hover {
+  color: rgb(109, 109, 109);
+}
