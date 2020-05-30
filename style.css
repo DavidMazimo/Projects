@@ -4,8 +4,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-.wrapper {
+body {
+  background-color: rgba(214, 214, 214, 0.774);
+}
+.navigation {
   display: flex;
   justify-content: space-around;
   background-color: rgba(91, 136, 32, 0.753);
@@ -27,4 +29,19 @@
 
 .nav-link:hover {
   color: rgb(109, 109, 109);
+}
+.wrapper {
+  margin-top: 20vh;
+  color: rgba(91, 136, 32, 0.753);
+}
+.projects-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 250px);
+}
+.project {
+  border: solid 1px black;
+  margin: 10px;
 }
